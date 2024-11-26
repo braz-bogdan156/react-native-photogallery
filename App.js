@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'; 
-import GalleryList from './components/GalleryList';
-import PhotoScreen from './components/PhotoScreen';
+import GalleryList from './src/components/GalleryList';
+import PhotoScreen from './src/components/PhotoScreen';
 
 const Stack = createStackNavigator(); 
 export default function App() {
